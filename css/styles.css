@@ -3,15 +3,21 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@font-face {
+    font-family: agentOrange;
+    src: url(AGENTORANGE.TTF);
+    font-weight: bold;
+}
 .container{
-  min-height: 10em;
+  /*min-height: 10em;*/
   position: relative;
   margin-left: auto;;
   margin-right: auto;
   width: 700px;
-  height: 580px;
-  vertical-align: top;
+  height: 600px;
   border: 1px solid #006600;
+  font-family: agentOrange;
 }
 .container3{
   position: absolute;
@@ -26,6 +32,7 @@
   height:240px;
   width: 150px;
   margin-right: 15px;
+  font-size: 12px
 }
 img{
   height:150px;
@@ -40,8 +47,10 @@ p{
 #mainHeader{
   color: #ccffcc;
   background-color: #006600;
-  margin-top: 0px
+  margin-top: 0px;
+padding-left: 15px;
 }
 #secondaryHeader{
   color: #006600;
+  padding-left: 15px
 }
